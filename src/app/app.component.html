@@ -1,0 +1,65 @@
+
+
+<div class="app">
+  <header>
+      <!-- Toolbar -->
+      <div class="toolbar" role="banner">
+
+
+            <a style="width: 175 px;" aria-label="Angular" rel="noopener"
+            routerLink="/">
+          
+            <img 
+            width="55"
+            src="https://image.noelshack.com/fichiers/2020/51/6/1608387195-capture-d-ecran-2020-12-19-a-15-13-04.png">
+          
+          </a>
+
+            <a style="width: 175px;" aria-label="Angular" rel="noopener" 
+            routerLink="/" title="..">
+          
+            <span style="color:black ;margin-left: 15px;"> Home </span>
+
+
+            </a>  
+
+
+
+            <a style="width: 175px;" aria-label="Angular" rel="noopener" 
+            routerLink="/about" title="..">
+            
+            
+          <span style="color:black ; margin-left: 15px;"> About </span>      
+            </a> 
+
+
+            <a style="width: 175px;" aria-label="Angular" rel="noopener" 
+            routerLink="/contact" title="..">
+            
+            
+          <span style="color:black ;margin-left: 15px;"> Contact </span>
+      
+            </a> 
+
+      </div> <br> <br> <br> <br> 
+
+
+    <section style="margin: 40px;"> 
+
+      <h1>{{ title }}</h1>
+      <h2> {{ version }}</h2>
+    </section>
+
+
+  </header>
+
+  <main>
+    <router-outlet></router-outlet>
+  </main>
+
+  <footer>
+
+
+  </footer>
+
+</div>
