@@ -12,3 +12,5 @@ To deliver this, we create several files, survey, to know the mentality of peopl
 ## Second topic
 
 The website is developed with angular technology, and hosted thanks to vercel.
+
+
